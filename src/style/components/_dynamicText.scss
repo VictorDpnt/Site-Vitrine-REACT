@@ -1,0 +1,19 @@
+.dynamic {
+  margin-top: 10px;
+  animation: flot 3s infinite ease-in-out;
+
+  @keyframes flot {
+    0% {
+      transform: translateY(0);
+      color: $black;
+    }
+    50% {
+      transform: translateY(10px);
+      color: $color-2;
+    }
+    100% {
+      transform: translateY(0);
+      color: $black;
+    }
+  }
+}
